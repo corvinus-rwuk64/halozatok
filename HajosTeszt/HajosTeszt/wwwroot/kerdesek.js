@@ -5,6 +5,7 @@ fetch('questions/4')
     .then(data => console.log(data));
 
 function kérdésMegjelenítés(kérdés) {
+
     console.log(kérdés);
     document.getElementById("kérdés_szöveg").innerText = kérdés.questionText
 

@@ -13,19 +13,19 @@
         </div>
         <div id="középső">
             <div id="válaszok">
-                <div id="válasz1" class="kérdés kattintható">Válasz 1</div>
-                <div id="válasz2" class="kérdés kattintható">Válasz 2</div>
-                <div id="válasz3" class="kérdés kattintható">Válasz 3</div>
+                <div id="válasz1" onclick="választás(1)" class="kérdés kattintható">Válasz 1</div>
+                <div id="válasz2" onclick="választás(2)" class="kérdés kattintható">Válasz 2</div>
+                <div id="válasz3" onclick="választás(3)" class="kérdés kattintható">Válasz 3</div>
             </div>
-            <div id="kép">
-                
+            <div id="kép_keret">
+                <img id="kép" src="" />
             </div>
         </div>
 
-        <!--<div id="vezérlő">
-            <button class="gomb kattintható" onclick="következőKérdés()">Vissza</button>
-            <button class="gomb kattintható" onclick="előzőKérdés()">Előre</button>
-        </div>-->
+        <div id="vezérlő">
+            <button id="előre_gomb" class="gomb kattintható">Vissza</button>
+            <button id="hátra_gomb" class="gomb kattintható">Előre</button>
+        </div>
     </div>
 </body>
 </html>

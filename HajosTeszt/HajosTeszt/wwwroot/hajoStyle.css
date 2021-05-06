@@ -49,7 +49,7 @@ div {
     font-size: large;
 }
 
-#kép {
+#kép_keret {
     overflow: hidden;
     flex: 0 0 50%;
     border-radius: unset;
@@ -88,12 +88,12 @@ img{
     color: white;
 }
 
-.jó:hover {
+.jó {
     background-color: mediumspringgreen;
     color: black;
 }
 
-.rossz:hover {
+.rossz {
     background-color: crimson;
     color: white;
 }
